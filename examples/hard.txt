@@ -1,0 +1,3 @@
+# A hard puzzle published by Arto Inkala in 2012, written as a single line of 81 digits.
+# The solver has to guess and backtrack to finish it.
+800000000003600000070090200050007000000045700000100030001000068008500010090000400

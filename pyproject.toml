@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sudoku-solver"
+dynamic = ["version"]
+description = "A small, readable sudoku solver with a command-line tool. Standard library only."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "kenston_" }]
+keywords = ["sudoku", "solver", "puzzle"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Topic :: Games/Entertainment :: Puzzle Games",
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[project.scripts]
+sudoku-solver = "sudoku_solver.cli:main"
+
+[tool.setuptools]
+packages = ["sudoku_solver"]
+
+[tool.setuptools.dynamic]
+version = { attr = "sudoku_solver.__version__" }
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

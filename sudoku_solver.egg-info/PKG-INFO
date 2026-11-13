@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: sudoku-solver
+Version: 0.1.0
+Summary: A small, readable sudoku solver with a command-line tool. Standard library only.
+Author: kenston_
+License-Expression: MIT
+Keywords: sudoku,solver,puzzle
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Games/Entertainment :: Puzzle Games
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: pytest>=7; extra == "dev"
+Dynamic: license-file

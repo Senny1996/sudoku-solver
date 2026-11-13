@@ -1,0 +1,11 @@
+# The "easy" puzzle with one clue removed. It has exactly two solutions, so it is not a
+# proper puzzle. Solving it works; adding --unique reports the problem (exit status 4).
+53..7....
+6..195...
+.98......
+8...6...3
+4..8.3..1
+7...2...6
+.6....28.
+...419..5
+....8..79
